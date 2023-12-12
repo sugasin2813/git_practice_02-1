@@ -14,6 +14,8 @@ gosub *init
 *calc
 	if OP="+" : ans=A+B;
 	if OP="-" : ans=A-B;
+	if OP="*" : ans=A*B;
+
     goto *main
 
 ;ボタンがクリックされたとき
