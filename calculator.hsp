@@ -12,7 +12,7 @@ gosub *init
 
 ;答えの計算
 *calc
-
+	if OP="+" : ans=A+B;
     goto *main
 
 ;ボタンがクリックされたとき
