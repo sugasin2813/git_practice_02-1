@@ -15,6 +15,7 @@ gosub *init
 	if OP="+" : ans=A+B;
 	if OP="-" : ans=A-B;
 	if OP="*" : ans=A*B;
+	if OP="/" : ans=A/B;
 
     goto *main
 
